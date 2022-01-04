@@ -32,6 +32,8 @@ QStringList VlcCommon::args()
                   << "--no-osd"
                   << "--no-loop"
                   << "--no-video-title-show"
+                  << "--no-audio"
+                  << "--network-caching=25"
 #if defined(Q_OS_DARWIN)
                   << "--vout=macosx"
 #endif
